@@ -1,12 +1,12 @@
-const SITE_NAME = 'Archetype Landings Twig';
-const SITE_URL = 'https://alt.netlify.app';
+const SITE_NAME = 'Broadway BCN';
+const SITE_URL = 'https://www.broadwaybcn.com';
 
 const defaultLanguage = 'en';
 const languages = ['en', 'es'];
 
 const routes = {
-  demo: {
-    es: 'ejemplo'
+  privacy_policy: {
+    es: 'politica_de_privacidad'
   }
 };
 
