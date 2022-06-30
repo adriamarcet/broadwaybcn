@@ -2,61 +2,53 @@ html, body {
     color: $c-black;
     font-display: swap;
     font-family: $t-sans-serif;
-    line-height: space();
+    font-size: 100%;
+    line-height: 1.3;
 }
 
-/* Headings */
-.title1,
-.title2 {
-    line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $t-serif;
+    font-weight: normal;
+    margin-bottom: space();
 }
 
 .title1 {
-    @include breakpoint($s480) {
-        @include fluid-type(46px, 70px);
-    }
+    @include fluid-type(18px, 127.884px);
 
-    font-size: get-rems(35px);
-    font-weight: bold;
-    text-transform: uppercase;
+    line-height: .9;
+}
+
+.title2,
+.title3 {
+    line-height: 1.1;
 }
 
 .title2 {
-    @include fluid-type(18px, 30px);
+    @include fluid-type(18px, 63.961px);
+
+    line-height: 1.1;
 }
 
 .title3 {
-    @include fluid-type(32px, 40px);
-
-    line-height: 1.1;
+    @include fluid-type(32px, 45.234px);
 }
 
 .title4 {
-    @include fluid-type(28px, 32px);
+    @include fluid-type(28px, 31.99px);
 
     line-height: 1.2;
 }
 
-.p-big {
-    @include fluid-type(24px, 32px);
-
-    line-height: 1.1;
-}
+.title5 { text-transform: uppercase; }
 
 .p-small {
-    @include fluid-type(14px, 18px);
+    @include fluid-type( 11.315px, 14px);
 
-    line-height: 1.2;
-}
-
-p, ul li {
-    @include fluid-type(16px, 24px);
-
-    line-height: 1.5;
-}
-
-h1, h2, h3 {
-    margin: 0 0 space();
+    line-height: 1.4;
 }
 
 b, strong { font-weight: 700; }
