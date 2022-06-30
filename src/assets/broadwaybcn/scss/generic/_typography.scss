@@ -17,7 +17,7 @@ h5 {
 }
 
 .title1 {
-    @include fluid-type(18px, 127.884px);
+    @include fluid-type(61.035px, 127.884px);
 
     line-height: .9;
 }
@@ -28,17 +28,17 @@ h5 {
 }
 
 .title2 {
-    @include fluid-type(18px, 63.961px);
+    @include fluid-type(48.828px, 63.961px);
 
     line-height: 1.1;
 }
 
 .title3 {
-    @include fluid-type(32px, 45.234px);
+    @include fluid-type(39.063px, 45.234px);
 }
 
 .title4 {
-    @include fluid-type(28px, 31.99px);
+    @include fluid-type(31.25px, 31.99px);
 
     line-height: 1.2;
 }
@@ -46,7 +46,7 @@ h5 {
 .title5 { text-transform: uppercase; }
 
 .p-small {
-    @include fluid-type( 11.315px, 14px);
+    @include fluid-type(12.8px, 11.315px);
 
     line-height: 1.4;
 }

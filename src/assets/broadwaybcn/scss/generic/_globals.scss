@@ -23,7 +23,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { display: block; }
 
 blockquote, q { quotes: none; }
-ol, ul { list-style: none; }
+ul { list-style: none; }
+ol { list-style-position: inside; }
 
 blockquote::before, blockquote::after,
 q::before, q::after { content: none; }
