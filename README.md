@@ -7,19 +7,19 @@ You can add content using a simple JSON file or a Google Spreadsheet file.
 
 Clone repository:
 
-```
+```bash
 git clone git@bitbucket.org:runroom/archetype-landings-twig.git
 ```
 
 Install the dependencies:
 
-```
+```bash
 yarn install
 ```
 
 Start the project:
 
-```
+```bash
 yarn start
 ```
 
