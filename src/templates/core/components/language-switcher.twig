@@ -1,0 +1,12 @@
+<nav class="language-switcher">
+    <ul>
+        {% for locale in languages %}
+            {% set activeClass = locale == currentLocale ? 'active' : '' %}
+            <li>
+                <a href="{{ transRoute(pageName, locale) }}" class="{{ activeClass }}">
+                    {{ locale }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

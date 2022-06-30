@@ -1,0 +1,10 @@
+{% extends 'layouts/default.twig' %}
+
+{% block head %}
+    {% include '@Core/components/metas.twig' %}
+    {{ parent() }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ 'title'|trans }}</h1>
+{% endblock %}
