@@ -1,0 +1,75 @@
+html, body {
+    color: $c-black;
+    font-display: swap;
+    font-family: $t-sans-serif;
+    line-height: space();
+}
+
+/* Headings */
+.title1,
+.title2 {
+    line-height: 1.2;
+}
+
+.title1 {
+    @include breakpoint($s480) {
+        @include fluid-type(46px, 70px);
+    }
+
+    font-size: get-rems(35px);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title2 {
+    @include fluid-type(18px, 30px);
+}
+
+.title3 {
+    @include fluid-type(32px, 40px);
+
+    line-height: 1.1;
+}
+
+.title4 {
+    @include fluid-type(28px, 32px);
+
+    line-height: 1.2;
+}
+
+.p-big {
+    @include fluid-type(24px, 32px);
+
+    line-height: 1.1;
+}
+
+.p-small {
+    @include fluid-type(14px, 18px);
+
+    line-height: 1.2;
+}
+
+p, ul li {
+    @include fluid-type(16px, 24px);
+
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    margin: 0 0 space();
+}
+
+b, strong { font-weight: 700; }
+i, em { font-style: italic; }
+
+p + p:not(.p-nomargin) {
+    margin: space() 0 0;
+}
+
+a {
+    color: var(--color-link);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.t-serif { font-family: $t-serif; }
