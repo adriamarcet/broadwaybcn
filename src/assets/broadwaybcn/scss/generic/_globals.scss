@@ -66,8 +66,17 @@ html, body {
 a svg,
 button * { pointer-events: none; }
 
+a {
+    color: var(--color-link);
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark);
 }
 
 [hidden="true"] { display: none !important; }

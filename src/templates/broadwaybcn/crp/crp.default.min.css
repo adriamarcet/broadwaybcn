@@ -1,17 +1,12 @@
 :root {
-  --color-base-blue: #1183ad;
-  --color-base-orange: #e6680c;
-  --color-light-yellow: #f7eec7;
-  --color-light-blue: #edfffe;
-  --color-link: #3f773b;
-  --color-brown-base: #553f29;
-  --color-gray-base: #fbf9f6;
-  --color-gray-dark: #6c6c6c;
-  --color-dark: #444;
-  --color-red-base: #b54100;
-  --color-white-base: #fff;
-  --color-yellow-base: #ff9c00;
-  --color-link-base: var(--color-red-base); }
+  --color-base-brown: #7d2c2c;
+  --color-base-orange: #ab5327;
+  --color-dark: #1c180f;
+  --color-dark-blue: #3d4775;
+  --color-light-blue: #8a94bf;
+  --color-light-yellow: #f7e516;
+  --color-light: #f2f0c7;
+  --color-link: var(--color-base-orange); }
 
 .margin-top--l {
   margin-top: 1rem; }
@@ -101,8 +96,15 @@ a svg,
 button * {
   pointer-events: none; }
 
+a {
+  color: var(--color-link); }
+
 html {
   scroll-behavior: smooth; }
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark); }
 
 [hidden="true"] {
   display: none !important; }
@@ -157,7 +159,8 @@ h5 {
 
 .title1 {
   font-size: 61.035px;
-  line-height: .9; }
+  line-height: .9;
+  text-shadow: 3px 3px 1px var(--accent-color); }
   @media screen and (min-width: 360px) {
     .title1 {
       font-size: calc(61.035px + 66.849 * ((100vw - 360px) / 736)); } }
@@ -293,6 +296,23 @@ textarea {
   font-family: Helvetica, Arial, sans-serif;
   min-height: 120px; }
 
+.theme1,
+.theme2 {
+  --color-link: var(--color-light-yellow);
+  --color-primary: var(--color-light); }
+
+.theme1 {
+  --accent-color: var(--color-dark-blue);
+  --color-background: var(--color-base-brown);
+  background-color: var(--color-background);
+  color: var(--color-primary); }
+
+.theme2 {
+  --accent-color: var(--color-base-orange);
+  --color-background: var(--color-dark-blue);
+  background-color: var(--color-background);
+  color: var(--color-primary); }
+
 .u-flex {
   display: flex; }
   .u-flex--justify-end {
@@ -320,7 +340,7 @@ textarea {
       padding-left: 0;
       padding-right: 0; } }
   .u-wrapper.is-reader {
-    max-width: 804px; }
+    max-width: 564px; }
 
 .u-hide {
   display: none !important; }
@@ -374,5 +394,5 @@ textarea {
       flex-direction: row-reverse; } }
   @media screen and (min-width: 1024px) {
     .cookies-banner__content {
-      max-width: 804px; } }
+      max-width: 564px; } }
 

@@ -4,17 +4,12 @@ $c-neutro900: gray;
 $c-neutro200: yellow;
 
 :root {
-    --color-base-blue: #1183ad;
-    --color-base-orange: #e6680c;
-    --color-light-yellow: #f7eec7;
-    --color-light-blue: #edfffe;
-    --color-link: #3f773b;
-    --color-brown-base: #553f29;
-    --color-gray-base: #fbf9f6;
-    --color-gray-dark: #6c6c6c;
-    --color-dark: #444;
-    --color-red-base: #b54100;
-    --color-white-base: #fff;
-    --color-yellow-base: #ff9c00;
-    --color-link-base: var(--color-red-base);
+    --color-base-brown: #7d2c2c;
+    --color-base-orange: #ab5327;
+    --color-dark: #1c180f;
+    --color-dark-blue: #3d4775;
+    --color-light-blue: #8a94bf;
+    --color-light-yellow: #f7e516;
+    --color-light: #f2f0c7;
+    --color-link: var(--color-base-orange);
 }

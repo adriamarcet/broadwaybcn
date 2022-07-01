@@ -20,6 +20,7 @@ h5 {
     @include fluid-type(61.035px, 127.884px);
 
     line-height: .9;
+    text-shadow: 3px 3px 1px var(--accent-color);
 }
 
 .title2,
