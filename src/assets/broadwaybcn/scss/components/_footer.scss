@@ -16,10 +16,8 @@
     }
 
     &__closing {
-        background-color: var(--color-gray-base);
-
         &-wrapper {
-            border-top: 1px solid gainsboro;
+            border-top: 1px solid var(--color-light);
             display: flex;
             padding-bottom: space(1.5);
             padding-top: space(1.5);
@@ -49,13 +47,7 @@
         }
     }
 
-    &__colophon {
-        background-color: var(--color-gray-base);
-        border-color: var(--color-yellow-base);
-        border-style: solid;
-        border-width: 4px 0 0 0;
-        padding: space(2) 0;
-    }
+    &__colophon { padding: space(2) 0; }
 
     &__logo {
         max-width: space(12.5);

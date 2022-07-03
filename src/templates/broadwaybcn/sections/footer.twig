@@ -1,14 +1,16 @@
 {% import "../helpers/macros.twig" as macros %}
 
-<footer class="footer">
+<footer class="footer theme1">
     <div class="footer__colophon">
         <div class="footer__colophon-wrapper u-wrapper">
             <div class="footer__colophon-column">
                 <div class="footer__logo">
                     <a href="{{ link('index') }}" class="u-flex">
                         <span class="u-sr-only">{{ 'header.link_main_page'|trans }}</span>
-                        {{ macros.icon('refreshing') }}
                     </a>
+                </div>
+                <div>
+                    <p class="u-flex u-flex--justify-center">Broadway BCN</p>
                 </div>
                 <ul class="footer__address" label="{{ 'footer.contact_info'|trans }}">
                     <li class="p-small">{{ 'footer.address.sentence_1'|trans }}</li>
@@ -18,6 +20,11 @@
             <div class="footer__colophon-column">
                 <div class="footer__languages">
                     <p id="languages-title" class="footer__languages-title">{{ 'footer.languages_title'|trans }}</p>
+                    <ul>
+                        <li><a href="">{{ 'a11y.language_switcher.en'|trans }}</a></li>
+                        <li><a href="">{{ 'a11y.language_switcher.es'|trans }}</a></li>
+                        <li><a href="">{{ 'a11y.language_switcher.ca'|trans }}</a></li>
+                    </ul>
                 </div>
                 <ul class="footer__socials">
                     <li class="footer__socials-item"><a href="https://www.instagram.com/solar_model/" class="footer__socials-link">
