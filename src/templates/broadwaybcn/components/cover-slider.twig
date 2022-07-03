@@ -1,0 +1,31 @@
+{% set class = component.class|default('') %}
+{% set slides = component.slides|default([]) %}
+
+<div class="cover-slider swiper-container {{ class }} bg-gray-base">
+    <div class="cover-slider__wrapper swiper-wrapper">
+        {% for slide in slides %}
+            <div class="cover-slider__slide swiper-slide">
+                <div>
+                    <div class="cover-slider__image">
+                        {% include 'components/picture.twig' with { component: slide.picture } %}
+                    </div>
+                    <div class="cover-slider__content">
+                        <p class="cover-slider__title">{{ slide.title }}</p>
+                        <p class="cover-slider__description p-small">{{ slide.description }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="swiper-pagination js-swiper-pagination u-align-center"></div>
+    <div class="swiper-navigation">
+        <div class="js-swiper-previous js-swiper-disabled" tabindex="0" role="button" aria-label="{{ 'a11y.slider_previous_slide'|trans}}">
+            {% include 'helpers/inline-svg.twig' with { svg: 'chevron-left' } %}
+        </div>
+        <div class="js-swiper-next" tabindex="0" role="button" aria-label="{{ 'a11y.slider_next_slide'|trans}}">
+            {% include 'helpers/inline-svg.twig' with {
+                svg: 'chevron-right',
+            } %}
+        </div>
+    </div>
+</div>

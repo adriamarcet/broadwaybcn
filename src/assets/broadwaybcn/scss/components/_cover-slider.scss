@@ -1,0 +1,48 @@
+.cover-slider {
+    &__slide {
+        border-radius: space(.25) space(.25) 0 0;
+        overflow: hidden;
+    }
+
+    &__image {
+        border-bottom: space(.5) solid var(--color-yellow-base);
+    }
+
+    &__content {
+        padding: space();
+
+        @include breakpoint($s1024) {
+            padding-bottom: space(2.5);
+        }
+    }
+
+    .swiper-pagination {
+        font-size: 12px;
+        min-height: space(1.6);
+        padding-top: space(.25);
+
+        @include breakpoint($s1024) {
+            bottom: 0;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .js-swiper-previous,
+    .js-swiper-next {
+        bottom: 0;
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        z-index: 1;
+
+        .u-icon {
+            height: space(1.625);
+            width: space(1.625);
+        }
+    }
+
+    .js-swiper-previous { left: 0; }
+    .js-swiper-next { right: 0; }
+}

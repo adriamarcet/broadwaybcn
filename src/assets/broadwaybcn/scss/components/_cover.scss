@@ -1,0 +1,10 @@
+$topBarHeight: 40px;
+$offset: 100px;
+
+.cover {
+    &__content {
+        background-color: gainsboro;
+        min-height: calc(100vh - #{($topBarHeight + $offset)});
+        width: 100%;
+    }
+}

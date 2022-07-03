@@ -1,11 +1,11 @@
 {
-  "name": "archetype-landings-twig",
+  "name": "broadwaybcn-website",
   "version": "1.0.0",
-  "description": "Archetype to create static webpages using twig template engine",
+  "description": "Template and style files for broadwaybcn website",
   "author": {
-    "name": "Italo Devoto Ramella",
-    "email": "hola@italodr.com",
-    "url": "https://italodr.com"
+    "name": "Adrià Marcet Rovira",
+    "email": "adriamarcetrovira@gmail.com",
+    "url": "https://www.linkedin.com/in/adriamarcet/"
   },
   "license": "MIT",
   "private": false,

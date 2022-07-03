@@ -1,5 +1,10 @@
 {% extends 'layouts/default.twig' %}
 
-{% block content %}
-    <h1>{{ 'title'|trans }}</h1>
+{% block crp %}
+    {% include 'crp/crp.default.min.css' %}
+	{% include 'crp/crp.index.min.css' %}
+{% endblock %}
+
+{% block main %}
+    {% include '../components/cover.twig' %}
 {% endblock %}
