@@ -1,21 +1,19 @@
 <header class="cover u-flex">
-    <div class="cover__content u-flex">
-        <h1 class="title1 u-align-center">{{ title|raw }}</h1>
-        <p class="title2 u-align-center">{{ description }}</p>
-    </div>
-
     {% set slides = slides|default([]) %}
     {% for i in 1..3 %}
         {% set slideTitle = 'cover_slider.slide_' ~ i ~ '.title' %}
         {% set slideDescription = 'cover_slider.slide_' ~ i ~ '.description' %}
+        {% set slideImageAlt = 'cover_slider.slide_' ~ i ~ '.alt' %}
 
         {% set slides = slides|merge([
             {
                 title: slideTitle|trans,
                 description: slideDescription|trans,
                 picture: {
+                    class: "cover-slide__image-element",
                     path: '/assets/img/home_slider/home_slider_' ~ i ~ '_4-3.jpg',
                     attr: 'width="1100" height="620"',
+                    alt: slideImageAlt|trans,
                     sources: [
                         {
                             path: '/assets/img/home_slider/home_slider_' ~ i ~ '_1-1.jpg',

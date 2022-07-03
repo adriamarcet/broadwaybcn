@@ -8,3 +8,9 @@
 {% block main %}
     {% include '../components/cover.twig' %}
 {% endblock %}
+
+{% block scripts %}
+    {{ parent() }}
+    <script src="{{ asset('home.min.js') }}"></script>
+{% endblock %}
+

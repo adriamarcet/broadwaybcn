@@ -1,0 +1,12 @@
+.cover-slide {
+    height: inherit;
+
+    &__image-element {
+        height: 100vh;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+    }
+}

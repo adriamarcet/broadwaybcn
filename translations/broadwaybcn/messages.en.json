@@ -19,22 +19,30 @@
     "cta_back_home": "Main page",
     "request": "Get in touch"
   },
+  "cookies_banner_button_label_ok": "Accept",
+  "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
+  "cookies_banner_sentence1": "We use cookies",
+  "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
   "cover_slider": {
     "slide_1": {
       "title": "Title",
-      "description": "Description"
+      "description": "Description",
+      "alt": "Description"
     },
     "slide_2": {
       "title": "Title",
-      "description": "Description"
+      "description": "Description",
+      "alt": "Description"
     },
     "slide_3": {
       "title": "Title",
-      "description": "Description"
+      "description": "Description",
+      "alt": "Description"
     },
     "slide_4": {
       "title": "Title",
-      "description": "Description"
+      "description": "Description",
+      "alt": "Description"
     }
   },
   "footer": {

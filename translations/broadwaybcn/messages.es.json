@@ -1,52 +1,6 @@
 {
-  "hero_title": "<span class='c-base-blue'>Jump in <span class='c-base-orange'>energy savings</span></span>",
-  "hero_description": "With your photovoltaic installation for your company or your home",
-  "cookies_banner_button_label_ok": "Accept",
-  "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
-  "cookies_banner_sentence1": "We use cookies",
-  "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
-  "contact_form_label_subscription": "I want to subscribe to the mailing list.",
-  "contact_form_label_privacy": "I have read and accept the <a href='./privacy-policy' target='_blank'>privacy policy</a>",
-  "contact_form_label_name": "Name and surname",
-  "contact_form_label_phone": "Telephone",
-  "contact_form_label_email": "EMAIL",
-  "contact_form_label_comments": "Comments",
-  "contact_form_title": "Contact us for a free personalized assessment",
-  "commons_contact_us": "Contact Us",
-  "home_summary_title": "With your photovoltaic installation",
-  "home_summary_description": "Electricity bills continue to rise year after year due to increasing demand, just like the one introduced this year. It's time to take action and take control to save our homes or businesses by generating free clean energy with the installation of photovoltaic panels.",
-  "home_kpi_1_title": "Start saving from minute 0",
-  "home_kpi_1_description": "Stop paying exorbitant electricity bills. With your solar panels, your expenses will drop drastically. The excess energy that your panels produce will flow into the energy network and your electric company will compensate you on your bill. Our ultimate goal is for our clients to save money.",
-  "home_kpi_2_title": "An investment profitable and safe",
-  "home_kpi_2_description": "Your electricity bill and the cost of living continue to rise, but sunlight will always be free! With your PV system, you ensure the control of your costs in the future and add value to your property.",
-  "home_kpi_3_title": "Without Complications",
-  "home_kpi_3_description": "We handle everything; Adapting the project to your energy consumption and characteristics of the location. We perform the engineering project, obtain the building permits, and their electrical legalization once underway.",
-  "home_kpi_4_title": "Control your consumption",
-  "home_kpi_4_description": "Monitor your green energy production and consumption on your mobile easily, from your computer or tablet.",
-  "home_facilities_title": "Our installations",
-  "home_facilities_description": "Several individuals and companies have relied on us for their installations of solar panels, here you can see the results.",
-  "home_facilities_quote_text": "We had Solar Model installed in our community to provide solar power to our street lights and run the pumps in the community pool. This has turned out excellent opportunity for us to save money and reduce the community cost. I would recommend Solar Model to every one.",
-  "home_facilities_quote_author": "Lee Walters",
-  "home_facilities_quote_role": "President of the homeowner's association Marina II, San Fulgencio.",
-  "home_facilities_cta_label": "Our installations",
-  "home_services_title": "Our Services",
-  "home_services_description": "We specialize in the development and installation of renewable energy in all types of buildings and structures. We install photovoltaic panels and solar panels of 400W, 450W, 500W ... Our installations are commonly used  in SMEs, residential areas, private homes and rural areas. We operate in Alicante, Murcia, and Valencia throughout. Contact us and our team will be happy to advise you on installations of solar panels and how to optimize and efficiently save on your electricity bill.",
-  "home_services_1_title": "Consulting",
-  "home_services_1_description": "We will advise you without obligation; our goal is to find the best solution for your energy needs. Just ask us and our specialists will contact you.",
-  "home_services_2_title": "The best brands",
-  "home_services_2_description": "We work with the best brands for efficiency and durability:",
-  "home_services_3_title": "Financing",
-  "home_services_3_description": "We can also help with funding; call us, and we'll find the solution most suited to your needs.",
-  "home_services_brand_1": "Solax",
-  "home_services_brand_2": "Amerisolar",
-  "home_services_brand_3": "Panasonic",
-  "home_services_brand_4": "Jinko",
-  "home_services_brand_5": "Fronius",
-  "home_services_brand_6": "Victrron",
-  "home_services_brand_7": "Canadian",
-  "home_services_brand_8": "Huawei",
   "a11y": {
-    "home_link": "Main page: solarmodel",
+    "home_link": "Main page: Broadway BCN",
     "language_switcher": {
       "title": "Language switcher",
       "es": "Español",
@@ -65,9 +19,31 @@
     "cta_back_home": "Main page",
     "request": "Get in touch"
   },
-  "contact_banner": {
-    "label": "Homeowners associations grants of 45% for solar panel installations",
-    "description": "Until May 31st GENERALITAT VALENCIANA is offering subsidies of up to 45% for solar panel installations for homeowners associations. We evaluate and respond to the needs of your project and furthermore, we handle all the paperwork for the grant. <br> We take care of all the details of the installation, and you pay 80% less every month on your electricity bill. (And your streetlights and pool lights will be powered completely by the sun!) Take advantage of this great opportunity and make your community green and efficient while saving money! Get our advice, no strings attached."
+  "cookies_banner_button_label_ok": "Accept",
+  "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
+  "cookies_banner_sentence1": "We use cookies",
+  "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
+  "cover_slider": {
+    "slide_1": {
+      "title": "Title",
+      "description": "Description",
+      "alt": "Description"
+    },
+    "slide_2": {
+      "title": "Title",
+      "description": "Description",
+      "alt": "Description"
+    },
+    "slide_3": {
+      "title": "Title",
+      "description": "Description",
+      "alt": "Description"
+    },
+    "slide_4": {
+      "title": "Title",
+      "description": "Description",
+      "alt": "Description"
+    }
   },
   "footer": {
     "languages_title": "Content available in",
@@ -79,96 +55,6 @@
       "sentence_1": "c/Escorial 115 4t 3a, 08024",
       "sentence_2": "Barcelona",
       "sentence_3": "<span class='js-year'>2021</span>"
-    }
-  },
-  "facilities": {
-    "title": "Nuestras instalaciones",
-    "description": "Algunas de nuestras instalaciones",
-    "types": {
-      "isolated": {
-        "title": "Aisladas",
-        "description": "Estas son nuestras instalaciones aisladas de la red eléctrica. Uno de los grandes beneficios para escoger en este tipo de paneles solares es poder contar con energía en zonas alejadas de conexiones eléctricas, además de poder disponer de energía tanto de día como de noche. La instalación de un sistema fotovoltaica desconectado de la red eléctrica se utiliza a pequeña y a gran escala en función del tamaño del emplazamiento. Habitualmente estas instalaciones estan en pequeños pueblos o zonas alejadas de las grandes ciudades o que tienen una red eléctrica poco desarrollada."
-      },
-      "connected": {
-        "title": "Conectadas a la red",
-        "description": "Las instalaciones solares conectadas captan la luz y la transforman en electricidad a 48 voltios en corriente continua, estos estan conectados a un inversor que a su vez la tranforman en corriente alterna a 220v o 380v. El inversor se conectará al cuadro eléctrico de la vivienda para suministrar dicha electricidad a la misma."
-      },
-      "hybrid": {
-        "title": "Híbridas",
-        "description": "A esta instalación de paneles solares se le agrega unas baterías o acumuladores, a fin de utilizar la energía acumulada en ellas para utilizarla en las primeras horas nocturnas, cuando ya no hay sol. Durante el dia los paneles solares daran servicio al consumo eléctrico y además cargaran las baterías instaladas. Cuando no haya sol el consumo estara cubierto por las baterías hasta que se agoten."
-      }
-    },
-    "list": {
-      "isolated": {
-        "facility1": {
-          "title": "Instalacion 12 kw aislada de la Red con baterías de litio",
-          "location": "Catral, Alicante"
-        },
-        "facility2": {
-          "title": "Instalacion 12 kw aislada de la Red con baterías de litio",
-          "location": "Catral, Alicante"
-        },
-        "facility3": {
-          "title": "Instalacion 12 kw aislada de la Red con baterías de litio",
-          "location": "Catral, Alicante"
-        },
-        "facility4": {
-          "title": "Instalacion 12 kw aislada de la Red con baterías de litio",
-          "location": "Catral, Alicante"
-        },
-        "facility5": {
-          "title": "Instalacion 12 kw aislada de la Red con baterías de litio",
-          "location": "Catral, Alicante"
-        }
-      },
-      "connected": {
-        "facility1": {
-          "title": "Instalación de 6kw encima de cenador",
-          "location": "Campoamor, Orihuela"
-        },
-        "facility2": {
-          "title": "Instalación de 30 kw conectada a la Red para pista de karts",
-          "location": "Rojales, Alicante"
-        },
-        "facility3": {
-          "title": "Instalación de 30 kw conectada a la Red para pista de karts",
-          "location": "Rojales, Alicante"
-        },
-        "facility4": {
-          "title": "Instalación de 5 kw conectada a la Red en chalet de playa",
-          "location": "Flamenca, Alicante"
-        },
-        "facility5": {
-          "title": "Instalación 8 kw conectada a Red y termosifon en chalet",
-          "location": "Campoamor, Orihuela"
-        },
-        "facility6": {
-          "title": "Instalación 8 kw conectada a Red y termosifon en chalet",
-          "location": "Campoamor, Orihuela"
-        }
-      },
-      "hybrid": {
-        "facility1": {
-          "title": "Instalación híbrida red-baterías 15 kw en chalet",
-          "location": "Cabo Roig, Orihuela"
-        },
-        "facility2": {
-          "title": "Instalación híbrida red-baterías 15 kw en chalet",
-          "location": "Cabo Roig, Orihuela"
-        },
-        "facility3": {
-          "title": "Instalación de 7 kw híbrida Red-baterías para comunidad de propietarios farolas y piscina",
-          "location": "San Fulgencio, Alicante"
-        },
-        "facility4": {
-          "title": "Instalación de 7 kw híbrida Red-baterías para comunidad de propietarios farolas y piscina",
-          "location": "San Fulgencio, Alicante"
-        },
-        "facility5": {
-          "title": "Instalación de 7 kw híbrida Red-baterías para comunidad de propietarios farolas y piscina",
-          "location": "San Fulgencio, Alicante"
-        }
-      }
     }
   },
   "pages": {
@@ -185,14 +71,14 @@
   },
   "title": "Hi",
   "meta": {
-    "title": "Solarmodel consulting and installation of solar panels",
-    "description": "SMEs, residential areas, private homes and agro-solar areas have already trusted us to improve their energy efficiency.",
-    "url": "https://www.solar-model.com/",
+    "title": "Broadway BCN l'academia de teatre musical per joves a Barcelona",
+    "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",
+    "url": "https://www.broadwaybcn.com/",
     "image": "https://www.solar-model.com/assets/img/OGimage-ES.jpg",
     "twitterImage": "https://www.solar-model.com/assets/img/OGimage-twitter-ES.jpg",
     "twitter": {
-      "site": "@solarmodel",
-      "creator": "@solarmodel"
+      "site": "@broadwaybcn",
+      "creator": "@broadwaybcn"
     }
   },
   "header": {
