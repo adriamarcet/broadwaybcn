@@ -1,25 +1,15 @@
-import Swiper, { Pagination, Navigation, Autoplay } from 'swiper';
+import Swiper, { Pagination, Autoplay } from 'swiper';
 
-Swiper.use([Navigation, Pagination, Autoplay]);
+Swiper.use([Pagination, Autoplay]);
 
 const initSlider = () =>
   new Swiper('.js-swiper-cover', {
-    modules: [Navigation, Pagination, Autoplay],
-    navigation: {
-      nextEl: '.js-swiper-next',
-      prevEl: '.js-swiper-previous',
-      disabledClass: 'js-swiper-disabled'
-    },
+    modules: [Pagination, Autoplay],
     pagination: {
       el: '.js-swiper-pagination',
-      type: 'fraction'
+      type: 'bullets'
     },
-    autoplay: false,
-    on: {
-      init() {
-        // lazyLoadImages();
-      }
-    }
+    autoplay: false
   });
 
 export default initSlider;

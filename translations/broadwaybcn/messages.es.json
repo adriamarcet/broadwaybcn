@@ -25,23 +25,18 @@
   "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
   "cover_slider": {
     "slide_1": {
-      "title": "Title",
-      "description": "Description",
+      "title": "L'acadèmia bilingüe per joves talents",
+      "description": "Tots els professors són bilingües i parlen anglès durant les seves classes",
       "alt": "Description"
     },
     "slide_2": {
-      "title": "Title",
-      "description": "Description",
+      "title": "Cursos de teatre musical per a totes les edats",
+      "description": "Grups per infants a partir de 7 anys i joves a partir de 14",
       "alt": "Description"
     },
     "slide_3": {
-      "title": "Title",
-      "description": "Description",
-      "alt": "Description"
-    },
-    "slide_4": {
-      "title": "Title",
-      "description": "Description",
+      "title": "Cursos intensius amb una actuació al teatre",
+      "description": "Tots els cursos faran una funció en un teatre per cada final de trimestre",
       "alt": "Description"
     }
   },

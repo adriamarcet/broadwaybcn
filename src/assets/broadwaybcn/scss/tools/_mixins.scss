@@ -12,9 +12,16 @@
 @import './helpers/visibility';
 @import './helpers/wrapper';
 
-@mixin linearGradientOrange {
-    background: var(--color-base-orange);
-    background: linear-gradient(148deg, rgba(230, 104, 12, 1) 45%, rgba(255, 156, 0, 1) 100%);
+@mixin long-shadow($length, $color, $fadeout: true) {
+    $shadow: '';
+    @for $i from 0 to $length - 1 {
+        $shadow: $shadow + $i + 'px ' + $i + 'px 0 ' + $color + ',';
+    }
+
+    $shadow: $shadow + $length + 'px ' + $length + 'px 0 ' + $color;
+    $shadow: unquote($shadow);
+
+    text-shadow: $shadow;
 }
 
 @mixin aspect-ratio($width, $height, $contentElement: 'content') {

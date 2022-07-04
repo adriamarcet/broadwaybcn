@@ -1,9 +1,9 @@
 <nav class="language-switcher">
-    <ul>
+    <ul class="u-flex u-flex--justify-end">
         {% for locale in languages %}
             {% set activeClass = locale == currentLocale ? 'active' : '' %}
             <li>
-                <a href="{{ transRoute(pageName, locale) }}" class="{{ activeClass }}">
+                <a href="{{ transRoute(pageName, locale) }}" class="{{ activeClass }} language-switcher__link u-flex">
                     {{ locale }}
                 </a>
             </li>

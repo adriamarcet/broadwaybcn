@@ -44,7 +44,10 @@ h5 {
     line-height: 1.2;
 }
 
-.title5 { text-transform: uppercase; }
+.title5 {
+    letter-spacing: .5;
+    text-transform: uppercase;
+}
 
 .p-small {
     @include fluid-type(12.8px, 11.315px);
