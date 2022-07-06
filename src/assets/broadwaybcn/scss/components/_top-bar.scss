@@ -8,22 +8,15 @@
             font-size: get-rems(38px);
         }
 
-        @include long-shadow(4, var(--color-dark));
-
         background-color: var(--color-base-brown);
         color: var(--color-light);
         font-family: $t-display;
         left: 0;
-        overflow: hidden;
         padding: 11px 20px 8px;
         position: absolute;
         text-decoration: none;
         top: 40px;
         z-index: 2;
-
-        &:hover {
-            @include long-shadow(34, var(--color-dark));
-        }
 
         @include breakpoint($s960) {
             left: 12%;

@@ -5,20 +5,20 @@
     <input name="cazodemiel" hidden />
     <input type="text" name="subject" value="Contacto web: {{ contactEmail }} rellenó el formulario" hidden >
     <div class="form__fieldset margin-bottom--l">
-        <label for="contactName" class="c-base-orange u-bold u-uppercase">{{ 'contact_form_label_name'|trans}}</label>
+        <label for="contactName">{{ 'contact_form_label_name'|trans}}</label>
         <input id="contactName" type="text" name="contactName" value="" placeholder="">
     </div>
     <div class="form__fieldset margin-bottom--l">
-        <label for="contactPhone" class="c-base-orange u-bold u-uppercase">{{ 'contact_form_label_phone'|trans}} *</label>
+        <label for="contactPhone">{{ 'contact_form_label_phone'|trans}} *</label>
 
         <input id="contactPhone" type="tel" name="contactPhone" value="" placeholder=" " required />
     </div>
     <div class="form__fieldset margin-bottom--l">
-        <label for="contactEmail" class="c-base-orange u-bold u-uppercase">{{ 'contact_form_label_email'|trans}} *</label>
+        <label for="contactEmail">{{ 'contact_form_label_email'|trans}} *</label>
         <input id="contactEmail" type="email" name="contactEmail" value="" placeholder=" " required />
     </div>
     <div class="form__fieldset margin-bottom--l">
-        <label for="contactMessage" class="c-base-orange u-bold u-uppercase">{{ 'contact_form_label_comments'|trans}}</label>
+        <label for="contactMessage">{{ 'contact_form_label_comments'|trans}}</label>
         <textarea id="contactMessage" type="email" name="contactMessage" value="" placeholder=""></textarea>
     </div>
     <div class="form__fieldset margin-bottom--l">
@@ -28,6 +28,6 @@
         <input type="checkbox" id="subscription" value=""><label for="subscription">{{ 'contact_form_label_subscription'|trans }}</label>
     </div>
     <div class="form__fieldset margin-bottom--l">
-        <button type="submit" class="cta cta--primary"><span>{{ 'commons_contact_us'|trans}}</span></button>
+        <button type="submit" class="cta cta--primary u-shadow"><span>{{ 'commons_contact_us'|trans}}</span></button>
     </div>
 </form>

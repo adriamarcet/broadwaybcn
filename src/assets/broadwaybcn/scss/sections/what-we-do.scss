@@ -1,0 +1,13 @@
+.what-we-do {
+    &__content {
+        @include breakpoint($s768) {
+            display: flex
+        }
+    }
+
+    &__column {
+        @include breakpoint($s768) {
+            @include columns(3, 2);
+        }
+    }
+}

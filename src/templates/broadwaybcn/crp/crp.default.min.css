@@ -23,6 +23,12 @@
 .margin-bottom--xxl {
   margin-bottom: 3rem; }
 
+.padding-top--xxl {
+  padding-top: 3rem; }
+
+.padding-bottom--xxl {
+  padding-bottom: 3rem; }
+
 /* https://gist.github.com/italodr/b4ded5894afa2ceae19ed1b767785e02 */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -140,6 +146,17 @@ body {
   .u-styled-list li::marker {
     color: var(--color-red-base);
     font-size: .7em; }
+
+.u-shadow, .u-long-shadow {
+  text-shadow: 0px 0px 0 var(--color-dark),2px 2px 0 var(--color-dark);
+  overflow: hidden; }
+  .u-shadow:hover, .u-long-shadow:hover {
+    text-shadow: 0px 0px 0 var(--color-dark),1px 1px 0 var(--color-dark),2px 2px 0 var(--color-dark),3px 3px 0 var(--color-dark),4px 4px 0 var(--color-dark),5px 5px 0 var(--color-dark),6px 6px 0 var(--color-dark),7px 7px 0 var(--color-dark),8px 8px 0 var(--color-dark),9px 9px 0 var(--color-dark),10px 10px 0 var(--color-dark),11px 11px 0 var(--color-dark),12px 12px 0 var(--color-dark),13px 13px 0 var(--color-dark),14px 14px 0 var(--color-dark),15px 15px 0 var(--color-dark),16px 16px 0 var(--color-dark),17px 17px 0 var(--color-dark),18px 18px 0 var(--color-dark),19px 19px 0 var(--color-dark),20px 20px 0 var(--color-dark),21px 21px 0 var(--color-dark),22px 22px 0 var(--color-dark),23px 23px 0 var(--color-dark),24px 24px 0 var(--color-dark),25px 25px 0 var(--color-dark),26px 26px 0 var(--color-dark),27px 27px 0 var(--color-dark),28px 28px 0 var(--color-dark),29px 29px 0 var(--color-dark),30px 30px 0 var(--color-dark),31px 31px 0 var(--color-dark),32px 32px 0 var(--color-dark),33px 33px 0 var(--color-dark),34px 34px 0 var(--color-dark),35px 35px 0 var(--color-dark),36px 36px 0 var(--color-dark),37px 37px 0 var(--color-dark),38px 38px 0 var(--color-dark),39px 39px 0 var(--color-dark),40px 40px 0 var(--color-dark),41px 41px 0 var(--color-dark),42px 42px 0 var(--color-dark),43px 43px 0 var(--color-dark),44px 44px 0 var(--color-dark),45px 45px 0 var(--color-dark),46px 46px 0 var(--color-dark),47px 47px 0 var(--color-dark),48px 48px 0 var(--color-dark),49px 49px 0 var(--color-dark),50px 50px 0 var(--color-dark),51px 51px 0 var(--color-dark),52px 52px 0 var(--color-dark),54px 54px 0 var(--color-dark); }
+
+.u-long-shadow {
+  text-shadow: 0px 0px 0 var(--color-dark),1px 1px 0 var(--color-dark),2px 2px 0 var(--color-dark),4px 4px 0 var(--color-dark); }
+  .u-long-shadow:hover {
+    text-shadow: 0px 0px 0 var(--color-dark),1px 1px 0 var(--color-dark),2px 2px 0 var(--color-dark),3px 3px 0 var(--color-dark),4px 4px 0 var(--color-dark),5px 5px 0 var(--color-dark),6px 6px 0 var(--color-dark),7px 7px 0 var(--color-dark),8px 8px 0 var(--color-dark),9px 9px 0 var(--color-dark),10px 10px 0 var(--color-dark),11px 11px 0 var(--color-dark),12px 12px 0 var(--color-dark),13px 13px 0 var(--color-dark),14px 14px 0 var(--color-dark),15px 15px 0 var(--color-dark),16px 16px 0 var(--color-dark),17px 17px 0 var(--color-dark),18px 18px 0 var(--color-dark),19px 19px 0 var(--color-dark),20px 20px 0 var(--color-dark),21px 21px 0 var(--color-dark),22px 22px 0 var(--color-dark),23px 23px 0 var(--color-dark),24px 24px 0 var(--color-dark),25px 25px 0 var(--color-dark),26px 26px 0 var(--color-dark),27px 27px 0 var(--color-dark),28px 28px 0 var(--color-dark),29px 29px 0 var(--color-dark),30px 30px 0 var(--color-dark),31px 31px 0 var(--color-dark),32px 32px 0 var(--color-dark),34px 34px 0 var(--color-dark); }
 
 html, body {
   color: #000;
@@ -267,12 +284,11 @@ input[type="checkbox"] + label {
   line-height: 1.5;
   margin-left: 0.3125rem; }
 
-input:not([type="radio"], [type="checkbox"]),
+input:not([type="radio"]):not([type="checkbox"]),
 textarea,
 select {
-  background-color: var(--color-light-blue);
-  border: 1px solid var(--color-gray-dark);
-  border-radius: 6px;
+  background-color: var(--color-light);
+  border: 1px solid var(--color-base-orange);
   box-sizing: border-box;
   font-size: 1rem;
   height: 2.75rem;
@@ -280,7 +296,7 @@ select {
   padding: 0.65rem 1rem 0.65rem;
   width: 100%; }
 
-input:not([type="radio"], [type="checkbox"]):hover,
+input:not([type="radio"]):not([type="checkbox"]):hover,
 textarea:hover,
 select:hover {
   border-color: var(--color-yellow-base); }

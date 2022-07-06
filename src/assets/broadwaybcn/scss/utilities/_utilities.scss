@@ -18,3 +18,22 @@
         font-size: .7em;
     }
 }
+
+.u-shadow {
+    @include long-shadow(2, var(--color-dark));
+
+    overflow: hidden;
+
+    &:hover {
+        @include long-shadow(54, var(--color-dark));
+    }
+}
+
+.u-long-shadow {
+    @extend .u-shadow;
+    @include long-shadow(4, var(--color-dark));
+
+    &:hover {
+        @include long-shadow(34, var(--color-dark));
+    }
+}
