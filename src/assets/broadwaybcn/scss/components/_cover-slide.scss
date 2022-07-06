@@ -1,5 +1,27 @@
 .cover-slide {
     height: inherit;
+    position: relative;
+
+     &::before {
+        @include absoluteCover;
+
+        background: var(--color-dark-blue);
+        -webkit-clip-path: polygon(0 45%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 45%, 100% 0, 100% 100%, 0% 100%);
+        content: '';
+        opacity: .9;
+        top: 30%;
+        z-index: 10;
+
+        @include breakpoint($s480) {
+            top: 40%;
+        }
+
+        @include breakpoint($s526) {
+            -webkit-clip-path: polygon(0 0, 100% 45%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 45%, 100% 100%, 0% 100%);
+        }
+    }
 
     &__image-element {
         height: 100vh;
@@ -22,17 +44,25 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        padding-bottom: 40px;
-        padding-left: 100px;
-        padding-right: 20px;
+        justify-content: center;
+        padding-left: 31.33%; // 80 / 375 * 100
+        padding-right: space(1.25);
+        top: 50%;
+        z-index: 20;
 
-        &::before {
-            @include absoluteCover;
+        @include breakpoint($s480) {
+            padding-right: 12.5%; // 60 / 480 * 100
+        }
 
-            background: var(--color-dark-blue);
-            background: linear-gradient(320deg, rgba(61, 71, 117, 1) 20%, rgba(61, 71, 117, 0) 100%);
-            content: '';
+        @include breakpoint($s526) {
+            padding-bottom: space(2.5);
+            padding-left: space(1.25);
+            padding-right: 34.22%; // 180 / 526 * 100
+        }
+
+        @include breakpoint($s640) {
+            padding-left: 12.5%; // 60 / 480 * 100
+            padding-top: space(2.5);
         }
     }
 }

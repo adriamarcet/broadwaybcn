@@ -4,6 +4,10 @@
     position: relative;
 
     &__logo {
+        @include breakpoint-max($s375) {
+            font-size: get-rems(38px);
+        }
+
         @include long-shadow(4, var(--color-dark));
 
         background-color: var(--color-base-brown);
@@ -16,5 +20,14 @@
         text-decoration: none;
         top: 40px;
         z-index: 2;
+
+        &:hover {
+            @include long-shadow(34, var(--color-dark));
+        }
+
+        @include breakpoint($s960) {
+            left: 12%;
+            top: 8px;
+        }
     }
 }

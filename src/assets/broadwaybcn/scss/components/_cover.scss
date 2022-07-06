@@ -2,7 +2,15 @@ $topBarHeight: 40px;
 $offset: 100px;
 
 .cover {
-    background-color: gainsboro;
-    height: calc(100vh - #{($topBarHeight + $offset)});
-    width: 100%;
+    @include aspect-ratio(3, 4, '.cover-slider');
+
+    @include breakpoint($s526) {
+        @include aspect-ratio(1, 1, '.cover-slider');
+    }
+
+    @include breakpoint($s813) {
+        @include aspect-ratio(16, 9, '.cover-slider');
+
+        max-height: calc(100vh - 180px);
+    }
 }

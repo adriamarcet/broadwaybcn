@@ -2,7 +2,7 @@ const SITE_NAME = 'Broadway BCN';
 const SITE_URL = 'https://www.broadwaybcn.com';
 
 const defaultLanguage = 'en';
-const languages = ['en', 'es'];
+const languages = ['en', 'es', 'ca'];
 
 const routes = {
   privacy_policy: {

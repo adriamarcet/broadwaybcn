@@ -1,0 +1,82 @@
+{
+  "a11y": {
+    "home_link": "Main page: Broadway BCN",
+    "language_switcher": {
+      "title": "Language switcher",
+      "es": "Español",
+      "ca": "Català",
+      "en": "English"
+    },
+    "new_window": "This link opens in a new tab",
+    "share_with_whatsapp": "Share in whatsapp",
+    "share_with_facebook": "Share in facebook",
+    "share_with_twitter": "Share in twitter",
+    "slider_previous_slide": "Previous slide",
+    "slider_next_slide": "Next slide"
+  },
+  "commons": {
+    "your_phone_number": "Your phone number or email",
+    "cta_back_home": "Main page",
+    "request": "Get in touch"
+  },
+  "cookies_banner_button_label_ok": "Accept",
+  "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
+  "cookies_banner_sentence1": "We use cookies",
+  "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
+  "cover_slider": {
+    "slide_1": {
+      "title": "L'acadèmia bilingüe per joves talents",
+      "description": "Tots els professors són bilingües i parlen anglès durant les seves classes",
+      "alt": "Description"
+    },
+    "slide_2": {
+      "title": "Cursos de teatre musical per a totes les edats",
+      "description": "Grups per infants a partir de 7 anys i joves a partir de 14",
+      "alt": "Description"
+    },
+    "slide_3": {
+      "title": "Cursos intensius amb una actuació al teatre",
+      "description": "Tots els cursos faran una funció en un teatre per cada final de trimestre",
+      "alt": "Description"
+    }
+  },
+  "footer": {
+    "languages_title": "Content available in",
+    "visit_instagram": "Visit us on Instagram",
+    "visit_facebook": "Visit us on Facebook",
+    "visit_youtube": "Visit us on Youtube",
+    "contact_info": "Información de contacto",
+    "address": {
+      "sentence_1": "c/Escorial 115 4t 3a, 08024",
+      "sentence_2": "Barcelona",
+      "sentence_3": "<span class='js-year'>2021</span>"
+    }
+  },
+  "pages": {
+    "privacy_cookies": {
+      "title": "Cookies policy"
+    },
+    "privacy_policy": {
+      "title": "Privacy policy"
+    }
+  },
+  "thank_you": {
+    "title": "Thank you for contacting us",
+    "description": "We will answer you shortly."
+  },
+  "title": "Hi",
+  "meta": {
+    "title": "Broadway BCN l'academia de teatre musical per joves a Barcelona",
+    "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",
+    "url": "https://www.broadwaybcn.com/",
+    "image": "https://www.solar-model.com/assets/img/OGimage-ES.jpg",
+    "twitterImage": "https://www.solar-model.com/assets/img/OGimage-twitter-ES.jpg",
+    "twitter": {
+      "site": "@broadwaybcn",
+      "creator": "@broadwaybcn"
+    }
+  },
+  "header": {
+    "link_main_page": "Back to main page"
+  }
+}

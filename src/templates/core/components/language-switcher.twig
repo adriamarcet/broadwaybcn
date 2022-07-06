@@ -3,7 +3,7 @@
         {% for locale in languages %}
             {% set activeClass = locale == currentLocale ? 'active' : '' %}
             <li>
-                <a href="{{ transRoute(pageName, locale) }}" class="{{ activeClass }} language-switcher__link u-flex">
+                <a href="{{ transRoute(pageName, locale) }}" class="{{ activeClass }} language-switcher__link u-flex u-uppercase">
                     {{ locale }}
                 </a>
             </li>

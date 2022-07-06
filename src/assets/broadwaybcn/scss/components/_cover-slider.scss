@@ -1,6 +1,8 @@
 @import '../../../../../node_modules/swiper/swiper.scss';
 @import '../../../../../node_modules/swiper/modules/pagination/pagination.scss';
 
+.swiper-pagination { bottom: 0 !important; }
+
 .swiper-pagination-bullet {
     background: var(--color-light);
     border-radius: 1px;
@@ -16,26 +18,4 @@
 .cover-slider {
     height: inherit;
     width: 100%;
-
-    // &__slide {
-    //     border-radius: space(.25) space(.25) 0 0;
-    //     overflow: hidden;
-    // }
-
-    // &__image {
-    //     border-bottom: space(.5) solid var(--color-yellow-base);
-    // }
-
-    // .swiper-pagination {
-    //     font-size: 12px;
-    //     min-height: space(1.6);
-    //     padding-top: space(.25);
-
-    //     @include breakpoint($s1024) {
-    //         bottom: 0;
-    //         position: absolute;
-    //         text-align: center;
-    //         width: 100%;
-    //     }
-    // }
 }
