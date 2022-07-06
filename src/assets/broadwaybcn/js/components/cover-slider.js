@@ -9,7 +9,7 @@ const initSlider = () =>
       el: '.js-swiper-pagination',
       type: 'bullets'
     },
-    autoplay: false
+    autoplay: true
   });
 
 export default initSlider;
