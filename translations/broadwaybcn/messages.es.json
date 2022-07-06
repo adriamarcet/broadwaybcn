@@ -14,6 +14,11 @@
     "slider_previous_slide": "Previous slide",
     "slider_next_slide": "Next slide"
   },
+  "billboard": {
+    "title": "Matrícula abierta a partir del 15 de julio",
+    "description": "Teatro musical en formato intensivo de 12 semanas con función al final en un teatro. Las sesiones se dividirán en canto, interpretación y danza y serán el lunes y el sábado por la mañana.",
+    "cta_label": "Inscríbete ahora"
+  },
   "commons": {
     "your_phone_number": "Your phone number or email",
     "cta_back_home": "Main page",
@@ -86,5 +91,14 @@
   },
   "header": {
     "link_main_page": "Back to main page"
+  },
+  "what_we_do": {
+    "title": "Learn with us",
+    "theatre_title": "Theatre",
+    "theatre_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
+    "interpretation_title": "Interpretation",
+    "interpretation_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
+    "dance_title": "Dance",
+    "dance_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. "
   }
 }

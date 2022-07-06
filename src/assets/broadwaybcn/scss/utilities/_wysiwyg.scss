@@ -45,13 +45,5 @@
         }
     }
 
-    .p-big {
-        border-left: 8px solid;
-        color: var(--color-red-base);
-        display: inline-block;
-        margin-top: space(2.25);
-        padding: 0;
-        padding-bottom: space(1.5);
-        padding-left: space(1.6);
-    }
+    p + p { margin-bottom: space(.5); }
 }

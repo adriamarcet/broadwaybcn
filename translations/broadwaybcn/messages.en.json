@@ -14,6 +14,11 @@
     "slider_previous_slide": "Previous slide",
     "slider_next_slide": "Next slide"
   },
+  "billboard": {
+    "title": "Registration open from July 15th",
+    "description": "Musical theater in a 12-week intensive format with a function at the end in a theater. Sessions will be divided into singing, acting and dancing and will be on Monday and Saturday mornings.",
+    "cta_label": "Apply now"
+  },
   "commons": {
     "your_phone_number": "Your phone number or email",
     "cta_back_home": "Main page",
@@ -86,5 +91,14 @@
   },
   "header": {
     "link_main_page": "Back to main page"
+  },
+  "what_we_do": {
+    "title": "Learn with us",
+    "theatre_title": "Theatre",
+    "theatre_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
+    "interpretation_title": "Interpretation",
+    "interpretation_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
+    "dance_title": "Dance",
+    "dance_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. "
   }
 }

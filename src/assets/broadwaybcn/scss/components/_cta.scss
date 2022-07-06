@@ -18,12 +18,14 @@
 
     &--hollow {
         background-color: transparent;
-        border: 1px solid var(--color-yellow-base);
-        color: var(--color-yellow-base);
+        border: 2px solid var(--color-dark);
+        color: var(--color-dark);
+        font-weight: bold;
 
         &:hover {
-            background-color: var(--color-yellow-base);
-            color: $c-black;
+            background-color: var(--color-base-brown);
+            border: 2px solid var(--color-light);
+            color: var(--color-light);
         }
     }
 
