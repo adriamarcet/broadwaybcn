@@ -26,15 +26,15 @@
   },
   "contact_form_label_subscription": "I want to subscribe to the mailing list.",
   "contact_form_label_privacy": "I have read and accept the <a href='./privacy-policy' target='_blank'>privacy policy</a>",
-  "contact_form_label_name": "Name and surname",
-  "contact_form_label_phone": "Telephone",
+  "contact_form_label_name": "Nom i cognnoms",
+  "contact_form_label_phone": "Telèfon",
   "contact_form_label_email": "EMAIL",
-  "contact_form_label_comments": "Comments",
+  "contact_form_label_comments": "Comentaris",
   "contact_form_title": "Leave us a request and get more information",
-  "commons_contact_us": "Contact Us",
-  "cookies_banner_button_label_ok": "Accept",
+  "commons_contact_us": "Contacta'ns",
+  "cookies_banner_button_label_ok": "Acceptar",
   "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
-  "cookies_banner_sentence1": "We use cookies",
+  "cookies_banner_sentence1": "Fem ús de Cookies",
   "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
   "cover_slider": {
     "slide_1": {
@@ -66,6 +66,9 @@
     }
   },
   "pages": {
+    "home": {
+      "title": "Inici"
+    },
     "privacy_cookies": {
       "title": "Cookies policy"
     },

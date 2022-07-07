@@ -66,6 +66,9 @@
     }
   },
   "pages": {
+    "home": {
+      "title": "Inicio"
+    },
     "privacy_cookies": {
       "title": "Cookies policy"
     },

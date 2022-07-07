@@ -254,6 +254,9 @@ a {
   cursor: pointer;
   text-decoration: underline; }
 
+.t-display {
+  font-family: "Bebas Neue", "Impact", "Tahoma", Arial, sans-serif; }
+
 .t-serif {
   font-family: "Canela", Georgia, serif; }
 
@@ -383,7 +386,7 @@ textarea {
     display: block !important; } }
 
 .cookies-banner {
-  background-color: var(--color-dark);
+  background-color: var(--color-light);
   bottom: 6.8rem;
   color: var(--color-white-base);
   left: 0;

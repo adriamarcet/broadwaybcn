@@ -1,6 +1,24 @@
+body {
+    @include breakpoint-max($s960) {
+        padding-bottom: space(5.4) !important;
+    }
+}
+
 .fix-cta {
-    .cta {
+    @include breakpoint-max($s960) {
+        background-color: var(--color-white-base);
+        bottom: 0;
+        padding: space(.5) space() space();
         position: fixed;
-        top: space(2.5);
+        width: 100%;
+        z-index: 10;
+    }
+
+    .cta {
+        @include breakpoint($s960) {
+            position: fixed;
+            top: space(1.6);
+            z-index: 10;
+        }
     }
 }

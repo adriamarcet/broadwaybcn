@@ -1,12 +1,4 @@
 .footer {
-    &__address {
-        margin-top: space(1.5);
-
-        @include breakpoint-max($s960) {
-            text-align: center;
-        }
-    }
-
     &__copy {
         @include breakpoint-max($s960) {
             display: flex;
@@ -81,6 +73,10 @@
     }
 
     &__languages-title { padding-bottom: space(.5); }
+    
+    &__language-item {
+        padding: 0 space();
+    }
 
     &__languages {
         @include breakpoint-max($s960) {

@@ -66,6 +66,9 @@
     }
   },
   "pages": {
+    "home": {
+      "title": "Home"
+    },
     "privacy_cookies": {
       "title": "Cookies policy"
     },
@@ -77,7 +80,7 @@
     "title": "Thank you for contacting us",
     "description": "We will answer you shortly."
   },
-  "title": "Hi",
+  "title": "Broadway BCN",
   "meta": {
     "title": "Broadway BCN l'academia de teatre musical per joves a Barcelona",
     "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",

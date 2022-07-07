@@ -1,5 +1,14 @@
 {% extends 'layouts/default.twig' %}
 
+{% block head %}
+    {{ parent() }}
+    <link rel="alternate" hreflang="es" href="https://broadwaybcn.com/es" />
+    <link rel="alternate" hreflang="ca" href="https://broadwaybcn.com/ca" />
+{% endblock %}
+{% block title %}
+    {{ parent() }} {{ 'pages.home.title'|trans }}
+{% endblock %}
+
 {% block crp %}
     {% include 'crp/crp.default.min.css' %}
 	{% include 'crp/crp.index.min.css' %}

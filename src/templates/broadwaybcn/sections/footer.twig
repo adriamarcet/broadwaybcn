@@ -10,9 +10,9 @@
                     </a>
                 </div>
                 <div>
-                    <p class="u-flex u-flex--justify-center">Broadway BCN</p>
+                    <p class="u-flex">{{ siteName }}</p>
                 </div>
-                <ul class="footer__address" label="{{ 'footer.contact_info'|trans }}">
+                <ul class="" label="{{ 'footer.contact_info'|trans }}">
                     <li class="p-small">{{ 'footer.address.sentence_1'|trans }}</li>
                     <li class="p-small">{{ 'footer.address.sentence_2'|trans }}</li>
                 </ul>
@@ -20,15 +20,15 @@
             <div class="footer__colophon-column">
                 <div class="footer__languages">
                     <p id="languages-title" class="footer__languages-title">{{ 'footer.languages_title'|trans }}</p>
-                    <ul>
-                        <li><a href="">{{ 'a11y.language_switcher.en'|trans }}</a></li>
-                        <li><a href="">{{ 'a11y.language_switcher.es'|trans }}</a></li>
-                        <li><a href="">{{ 'a11y.language_switcher.ca'|trans }}</a></li>
+                    <ul class="u-flex u-flex--justify-center">
+                        <li><a href="./" class="footer__language-item" lang="en">{{ 'a11y.language_switcher.en'|trans }}</a></li>
+                        <li><a href="{{ transRoute(pageName, 'es') }}" class="footer__language-item" lang="es">{{ 'a11y.language_switcher.es'|trans }}</a></li>
+                        <li><a href="{{ transRoute(pageName, 'ca') }}" class="footer__language-item" lang="ca">{{ 'a11y.language_switcher.ca'|trans }}</a></li>
                     </ul>
                 </div>
                 <ul class="footer__socials">
                     <li class="footer__socials-item"><a href="https://www.instagram.com/solar_model/" class="footer__socials-link">
-                        {% include 'helpers/inline-svg.twig' with { svg: 'social-footer-instagram' } %}
+                        {# {% include 'helpers/inline-svg.twig' with { svg: 'social-footer-instagram' } %} #}
                         <span class="u-sr-only">{{ 'footer.visit_instagram'|trans }} {{ 'a11y.new_window'|trans}}</span></a>
                     </li>
                     <li class="footer__socials-item"><a href="https://www.facebook.com/SolarmodelALICANTE" class="footer__socials-link">

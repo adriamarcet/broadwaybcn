@@ -6,7 +6,8 @@ const languages = ['en', 'es', 'ca'];
 
 const routes = {
   privacy_policy: {
-    es: 'politica_de_privacidad'
+    es: 'politica_de_privacidad',
+    ca: 'politica_de_privacitat'
   }
 };
 

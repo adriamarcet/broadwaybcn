@@ -1,8 +1,18 @@
 {% extends 'layouts/default.twig' %}
 
+{% block head %}
+    {{ parent() }}
+    <link rel="alternate" hreflang="es" href="https://broadwaybcn.com/politica_de_privacidad" />
+    <link rel="alternate" hreflang="ca" href="https://broadwaybcn.com/politica_de_privacitat" />
+{% endblock %}
+
 {% block metas %}
     <meta name="robots" content="noindex,follow">
     {{ parent() }}
+{% endblock %}
+
+{% block title %}
+    {{ parent() }} {{ 'pages.privacy_policy.title'|trans }}
 {% endblock %}
 
 {% block main %}
