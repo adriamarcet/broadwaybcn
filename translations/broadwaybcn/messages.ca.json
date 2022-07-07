@@ -93,15 +93,15 @@
     }
   },
   "header": {
-    "link_main_page": "Back to main page"
+    "link_main_page": "Tornar a la pàgina d'inici"
   },
   "what_we_do": {
-    "title": "Learn with us",
-    "theatre_title": "Theatre",
-    "theatre_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
-    "interpretation_title": "Interpretation",
-    "interpretation_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
-    "dance_title": "Dance",
-    "dance_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. "
+    "title": "Aprèn amb nosaltres",
+    "theatre_title": "Cantar",
+    "theatre_description": "Aprèn amb nosaltres tècniques de respiració, posició i escalfament adequat de les teves cordes vocals específics per cantar un espectacle de teatre musical.",
+    "interpretation_title": "Actuar",
+    "interpretation_description": "Aprèn tècniques d'actuació diferents centrades en el teatre musical.",
+    "dance_title": "Ballar",
+    "dance_description": "Aprèn diferents tècniques de ball centrades al teatre musical."
   }
 }

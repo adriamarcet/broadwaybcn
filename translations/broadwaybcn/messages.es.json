@@ -93,15 +93,15 @@
     }
   },
   "header": {
-    "link_main_page": "Back to main page"
+    "link_main_page": "Volver a la página de inicio"
   },
   "what_we_do": {
     "title": "Learn with us",
-    "theatre_title": "Theatre",
-    "theatre_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
-    "interpretation_title": "Interpretation",
-    "interpretation_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
-    "dance_title": "Dance",
-    "dance_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. "
+    "theatre_title": "Cantar",
+    "theatre_description": "Aprende con nosotros técnicas de respiración, posición y el calentamiento adecuado de tus cuerdas vocales específicos para cantar un espectáculo de teatro musical.",
+    "interpretation_title": "Actuar",
+    "interpretation_description": "Aprende distintas técnicas de actuación centradas en el teatro musical.",
+    "dance_title": "Bailar",
+    "dance_description": "Aprende distintas técnicas de baile centradas en el teatro musical."
   }
 }

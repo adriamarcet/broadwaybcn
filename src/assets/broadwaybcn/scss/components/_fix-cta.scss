@@ -11,14 +11,12 @@ body {
         padding: space(.5) space() space();
         position: fixed;
         width: 100%;
-        z-index: 10;
     }
 
     .cta {
         @include breakpoint($s960) {
             position: fixed;
             top: space(1.6);
-            z-index: 10;
         }
     }
 }

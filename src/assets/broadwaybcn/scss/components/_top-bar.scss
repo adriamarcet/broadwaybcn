@@ -2,6 +2,7 @@
     background-color: var(--color-dark);
     color: var(--color-light);
     position: relative;
+    z-index: 20;
 
     &__logo {
         @include breakpoint-max($s375) {

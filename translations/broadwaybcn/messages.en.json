@@ -97,11 +97,11 @@
   },
   "what_we_do": {
     "title": "Learn with us",
-    "theatre_title": "Theatre",
-    "theatre_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
-    "interpretation_title": "Interpretation",
-    "interpretation_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. ",
-    "dance_title": "Dance",
-    "dance_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea natus soluta consectetur excepturi ad eligendi ut explicabo repellendus assumenda. "
+    "theatre_title": "Singing",
+    "theatre_description": "Learn with us breathing techniques, position and the proper warm-up of your specific vocal cords to sing a musical theater show.",
+    "interpretation_title": "Acting",
+    "interpretation_description": "Learn different acting techniques focused on musical theater.",
+    "dance_title": "Dancing",
+    "dance_description": "Learn different dance techniques focused on musical theater."
   }
 }
