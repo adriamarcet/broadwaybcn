@@ -25,12 +25,12 @@
     "request": "Get in touch"
   },
   "contact_form_label_subscription": "I want to subscribe to the mailing list.",
-  "contact_form_label_privacy": "I have read and accept the <a href='./privacy-policy' target='_blank'>privacy policy</a>",
+  "contact_form_label_privacy": "I have read and accept the <a href='./privacy_policy' target='_blank'>privacy policy</a>",
   "contact_form_label_name": "Nom i cognnoms",
   "contact_form_label_phone": "Telèfon",
   "contact_form_label_email": "EMAIL",
   "contact_form_label_comments": "Comentaris",
-  "contact_form_title": "Leave us a request and get more information",
+  "contact_form_title": "Deixa'ns el teu missatge si vols rebre més informació",
   "commons_contact_us": "Contacta'ns",
   "cookies_banner_button_label_ok": "Acceptar",
   "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
@@ -65,6 +65,9 @@
       "sentence_3": "<span class='js-year'>2021</span>"
     }
   },
+  "header": {
+    "link_main_page": "Tornar a la pàgina d'inici"
+  },
   "pages": {
     "home": {
       "title": "Inici"
@@ -74,6 +77,21 @@
     },
     "privacy_policy": {
       "title": "Privacy policy"
+    }
+  },
+  "services": {
+    "title": "Perque BROADWAY BCN funciona",
+    "service_1": {
+      "title": "Teatre musical per a totes les edats",
+      "description": "Grups per infants a partir de 7 anys i joves a partir de 14."
+    },
+    "service_2": {
+      "title": "Cursos bilingüe castellà o català - anglès",
+      "description": "Tots els professors són bilingües i parlen anglès durant les seves classes."
+    },
+    "service_3": {
+      "title": "Actuació al teatre",
+      "description": "Tots els cursos intensius acabaran el trimestre amb una funció en un teatre real."
     }
   },
   "thank_you": {
@@ -91,9 +109,6 @@
       "site": "@broadwaybcn",
       "creator": "@broadwaybcn"
     }
-  },
-  "header": {
-    "link_main_page": "Tornar a la pàgina d'inici"
   },
   "what_we_do": {
     "title": "Aprèn amb nosaltres",

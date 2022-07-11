@@ -49,6 +49,12 @@ h5 {
     text-transform: uppercase;
 }
 
+.title6 {
+    @include fluid-type(21.25px, 23.99px);
+
+    line-height: 1.2;
+}
+
 .p-small {
     @include fluid-type(12.8px, 11.315px);
 

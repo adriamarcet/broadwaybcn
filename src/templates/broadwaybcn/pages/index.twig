@@ -5,6 +5,7 @@
     <link rel="alternate" hreflang="es" href="https://broadwaybcn.com/es" />
     <link rel="alternate" hreflang="ca" href="https://broadwaybcn.com/ca" />
 {% endblock %}
+
 {% block title %}
     {{ parent() }} {{ 'pages.home.title'|trans }}
 {% endblock %}
@@ -18,6 +19,7 @@
     {% include '../components/cover.twig' %}
     {% include '../components/fix-cta.twig' %}
     {% include '../sections/billboard.twig' %}
+    {% include '../sections/services.twig' %}
     {% include '../sections/what-we-do.twig' %}
     {% include '../sections/contact-form.twig' %}
 {% endblock %}

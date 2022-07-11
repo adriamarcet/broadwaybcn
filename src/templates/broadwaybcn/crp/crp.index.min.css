@@ -222,6 +222,16 @@ h5 {
   letter-spacing: .5;
   text-transform: uppercase; }
 
+.title6 {
+  font-size: 21.25px;
+  line-height: 1.2; }
+  @media screen and (min-width: 360px) {
+    .title6 {
+      font-size: calc(21.25px + 2.74 * ((100vw - 360px) / 736)); } }
+  @media screen and (min-width: 1096px) {
+    .title6 {
+      font-size: 23.99px; } }
+
 .p-small {
   font-size: 12.8px;
   line-height: 1.4; }

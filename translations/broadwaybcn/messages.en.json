@@ -25,7 +25,7 @@
     "request": "Get in touch"
   },
   "contact_form_label_subscription": "I want to subscribe to the mailing list.",
-  "contact_form_label_privacy": "I have read and accept the <a href='./privacy-policy' target='_blank'>privacy policy</a>",
+  "contact_form_label_privacy": "I have read and accept the <a href='./privacy_policy' target='_blank'>privacy policy</a>",
   "contact_form_label_name": "Name and surname",
   "contact_form_label_phone": "Telephone",
   "contact_form_label_email": "EMAIL",
@@ -65,6 +65,9 @@
       "sentence_3": "<span class='js-year'>2021</span>"
     }
   },
+  "header": {
+    "link_main_page": "Back to main page"
+  },
   "pages": {
     "home": {
       "title": "Home"
@@ -74,6 +77,21 @@
     },
     "privacy_policy": {
       "title": "Privacy policy"
+    }
+  },
+  "services": {
+    "title": "Why Broadway BCN works",
+    "service_1": {
+      "title": "Courses for all ages",
+      "description": "Groups from 7 years old and young people from 14 and up."
+    },
+    "service_2": {
+      "title": "Courses bilingua: spanish and english",
+      "description": "All teachers are bilingual and speak English during their lessons."
+    },
+    "service_3": {
+      "title": "Performance in a real theatre",
+      "description": "All courses will feature in a real theatre for each end of term."
     }
   },
   "thank_you": {
@@ -91,9 +109,6 @@
       "site": "@broadwaybcn",
       "creator": "@broadwaybcn"
     }
-  },
-  "header": {
-    "link_main_page": "Back to main page"
   },
   "what_we_do": {
     "title": "Learn with us",

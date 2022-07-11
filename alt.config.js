@@ -8,6 +8,10 @@ const routes = {
   privacy_policy: {
     es: 'politica_de_privacidad',
     ca: 'politica_de_privacitat'
+  },
+  thank_you: {
+    es: 'gracias_por_contactarnos',
+    ca: 'gracies_per_contactarnos'
   }
 };
 
