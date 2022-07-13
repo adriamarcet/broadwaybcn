@@ -60,7 +60,7 @@
     "visit_youtube": "Visit us on Youtube",
     "contact_info": "Información de contacto",
     "address": {
-      "sentence_1": "c/Escorial 115 4t 3a, 08024",
+      "sentence_1": "Carrer de l'Or 24, 08024.",
       "sentence_2": "Barcelona",
       "sentence_3": "<span class='js-year'>2021</span>"
     }
@@ -92,6 +92,17 @@
     "service_3": {
       "title": "Performance in a real theatre",
       "description": "All courses will feature in a real theatre for each end of term."
+    }
+  },
+  "teachers": {
+    "title": "Meet our team",
+    "teacher_1": {
+      "name": "Jofre Bellés",
+      "description": "Jofre comes from Barcelona, where he gained a BA Hons. in Physical Theatre at the Spanish Institut del Teatre. In London he studied drama at Rose Bruford College where he further developed his skills with the piano and the double bass. He graduated in 2009 with a BA Hons in Actor-Musicianship."
+    },
+    "teacher_2": {
+      "name": "Jofre Bellés",
+      "description": "Jofre comes from Barcelona, where he gained a BA Hons. in Physical Theatre at the Spanish Institut del Teatre. In London he studied drama at Rose Bruford College where he further developed his skills with the piano and the double bass. He graduated in 2009 with a BA Hons in Actor-Musicianship."
     }
   },
   "thank_you": {

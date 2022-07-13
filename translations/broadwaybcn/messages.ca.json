@@ -60,7 +60,7 @@
     "visit_youtube": "Visit us on Youtube",
     "contact_info": "Información de contacto",
     "address": {
-      "sentence_1": "c/Escorial 115 4t 3a, 08024",
+      "sentence_1": "Carrer de l'Or 24, 08024.",
       "sentence_2": "Barcelona",
       "sentence_3": "<span class='js-year'>2021</span>"
     }
@@ -92,6 +92,17 @@
     "service_3": {
       "title": "Actuació al teatre",
       "description": "Tots els cursos intensius acabaran el trimestre amb una funció en un teatre real."
+    }
+  },
+  "teachers": {
+    "title": "Coneix el nostre equip",
+    "teacher_1": {
+      "name": "Jofre Alsina",
+      "description": "Jofre ve de Barcelona, ​​on va obtenir un BA Hons. a Teatre Físic a l'Institut del Teatre d'Espanya. A Londres va estudiar art dramàtic al Rose Bruford College, on va desenvolupar encara més les seves habilitats amb el piano i el contrabaix. Es va graduar el 2009 amb una llicenciatura amb honors en Actuació Musical."
+    },
+    "teacher_2": {
+      "name": "",
+      "description": ""
     }
   },
   "thank_you": {
