@@ -53,6 +53,13 @@
       "alt": "Description"
     }
   },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "faq_1": {
+      "title": "Title",
+      "description": "Description"
+    }
+  },
   "footer": {
     "languages_title": "Contenido disponible en",
     "visit_instagram": "Visítanos en Instagram",
@@ -86,7 +93,7 @@
       "description": "Grupos para niños a partir de 7 años y jóvenes a partir de 14."
     },
     "service_2": {
-      "title": "Cursos bilingüe: castellano - inglés",
+      "title": "Clases en inglés",
       "description": "Todos los profesores son bilingües y hablan inglés durante sus clases."
     },
     "service_3": {

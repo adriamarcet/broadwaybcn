@@ -53,6 +53,13 @@
       "alt": "Description"
     }
   },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "faq_1": {
+      "title": "Title",
+      "description": "Description"
+    }
+  },
   "footer": {
     "languages_title": "Content available in",
     "visit_instagram": "Visit us on Instagram",
@@ -86,7 +93,7 @@
       "description": "Groups from 7 years old and young people from 14 and up."
     },
     "service_2": {
-      "title": "Courses bilingua: spanish and english",
+      "title": "English classes",
       "description": "All teachers are bilingual and speak English during their lessons."
     },
     "service_3": {

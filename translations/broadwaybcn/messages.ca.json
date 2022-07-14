@@ -53,6 +53,13 @@
       "alt": "Description"
     }
   },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "faq_1": {
+      "title": "Title",
+      "description": "Description"
+    }
+  },
   "footer": {
     "languages_title": "Content available in",
     "visit_instagram": "Visit us on Instagram",
