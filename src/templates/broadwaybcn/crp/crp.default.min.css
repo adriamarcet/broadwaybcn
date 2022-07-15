@@ -68,7 +68,10 @@ q::before, q::after {
   content: none; }
 
 iframe {
-  border: 0; }
+  border: 0;
+  display: block;
+  height: 100%;
+  max-width: 100%; }
 
 img {
   display: block;

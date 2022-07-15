@@ -75,6 +75,15 @@
   "header": {
     "link_main_page": "Back to main page"
   },
+  "location": {
+    "title": "Address",
+    "address": {
+      "title": "Microteatre Barcelona",
+      "complementary": "The face-to-face lessons and end-of-year performances will be inside the MicroTeatre de Barcelona, located in the center of the Gràcia district of Barcelona. In addition, the MicroTeatre has its own bar in case the students' companions want to wait there.",
+      "address": "Carrer de l'Or 25, Barcelona",
+      "phone": "Phone: 932779683"
+    }
+  },
   "pages": {
     "home": {
       "title": "Home"

@@ -29,7 +29,12 @@ ol { list-style-position: inside; }
 blockquote::before, blockquote::after,
 q::before, q::after { content: none; }
 
-iframe { border: 0; }
+iframe {
+    border: 0;
+    display: block;
+    height: 100%;
+    max-width: 100%;
+}
 
 img {
     display: block;

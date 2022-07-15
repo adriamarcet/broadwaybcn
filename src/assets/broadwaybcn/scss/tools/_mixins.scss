@@ -24,7 +24,7 @@
     text-shadow: $shadow;
 }
 
-@mixin aspect-ratio($width, $height, $contentElement: 'content') {
+@mixin aspect-ratio($width, $height, $contentElement: '.content') {
     position: relative;
 
     &::before {
